@@ -1,0 +1,67 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(107, 107, 168);
+    
+}
+
+#left-side{
+    float: left;
+    width: 10%;
+    background-color: blue;
+    left: 30px;
+    height: fit-content;
+}
+
+#right-side{
+    float: left;
+    width: 10%;
+    background-color: blue;
+    left: 30px;
+}
+
+#main-content{
+    float: left;
+    width: 80%;
+    height: 100vh;
+}
+
+
+div{
+    width: 100%;
+    background-color: lightGrey;
+    margin-bottom: 50px;
+}
+h2, h3 {
+    text-align: center;
+    margin: 0px;
+}
+
+table {
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #000000;
+    border-left: 0;
+    border-radius: 4px;
+    margin-top:20px;
+    align-self: center;
+}
+
+th,td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-left: 1px solid #dddddd;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: lightGrey;
+    height: 30px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+    
+}
